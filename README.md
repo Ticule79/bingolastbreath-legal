@@ -9,6 +9,9 @@ de confidentialité et la suppression de compte.
 - https://ticule79.github.io/bingolastbreath-legal/conditions/
 - https://ticule79.github.io/bingolastbreath-legal/mentions-legales/
 
+Traductions anglaises sous `en/` (`privacy/`, `delete-account/`, `terms/`, `legal-notice/`) : la version
+française fait foi. **Toute modification d'un texte se fait dans les deux langues.**
+
 GitHub Pages : Settings → Pages → Deploy from a branch → `main` / `(root)`.
 
 Ces textes décrivent l'application **telle qu'elle doit être au lancement** (bouton « Supprimer mon
