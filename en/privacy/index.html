@@ -19,7 +19,7 @@
 </nav>
 
 <h1>Privacy policy</h1>
-<p class="updated">Version 1 — 20 November 2026. English translation; the
+<p class="updated">Version 1.1 — 22 November 2026 (web version added). English translation; the
 <a href="/bingolastbreath-legal/confidentialite/" lang="fr">French version</a> prevails in case of
 discrepancy.</p>
 
@@ -33,6 +33,9 @@ SIRET 853&nbsp;352&nbsp;268&nbsp;00033, 66&nbsp;B rue de la Couillauderie, 44340
 <p>Contact for any question or request: <a href="mailto:novera.app.contact@gmail.com">novera.app.contact@gmail.com</a></p>
 
 <h2>Your identity with us</h2>
+<p>The app comes in two versions sharing the same accounts and groups: the Android app and the
+<strong>web version</strong> (<a href="https://ticule79.github.io/bingolastbreath-web/">ticule79.github.io/bingolastbreath-web</a>), usable in a browser and installable on the home screen,
+notably on iPhone. Unless stated otherwise, this text applies to both.</p>
 <p>No password, ever. On first launch, the app creates an <strong>anonymous account</strong>: a random
 identifier, and a sign-in token kept in the app's private storage on your phone. You then choose a
 <strong>nickname</strong>.</p>
@@ -48,6 +51,14 @@ you can, <strong>if you wish</strong>, protect it by linking:</p>
 <p>Your email address is <strong>never visible to other players</strong>, nor used for marketing. It
 is only used to sign you in and, if necessary, to write to you about your account.</p>
 <p>The app language (French or English) is stored only on your phone.</p>
+<h3>In the web version</h3>
+<p>The sign-in token is kept in the browser's local storage, specific to the web version's site. It also
+holds your acceptance of these rules (with its date) and a copy of the last data displayed (your
+groups, standings and picks) so the app can still be viewed offline. The browser also keeps the app's
+files so it opens without a network. This information stays on your device.</p>
+<p>Clearing the site's data in your browser loses an account that is still anonymous. On iPhone, Safari
+and the app added to the home screen each have their own storage: an account created in one does not
+appear in the other.</p>
 
 <h2>What is recorded on our server</h2>
 <dl>
@@ -90,7 +101,7 @@ is only used to sign you in and, if necessary, to write to you about your accoun
   by the European Commission's standard contractual clauses, included in its data processing
   agreement.</dd>
   <dt>Wikidata (Wikimedia Foundation)</dt>
-  <dd>When you search for a public figure, your phone queries Wikidata directly: the Wikimedia
+  <dd>When you search for a public figure, your phone (or browser) queries Wikidata directly: the Wikimedia
   Foundation then receives the text of your search and your IP address, as with any website you visit,
   under its own <a href="https://foundation.wikimedia.org/wiki/Policy:Privacy_policy">privacy
   policy</a>. It receives neither your nickname, nor your identifier, nor your groups. Our server also
@@ -102,6 +113,15 @@ is only used to sign you in and, if necessary, to write to you about your accoun
   <dd>Only if you choose "Continue with Google": Google authenticates you, under its own
   <a href="https://policies.google.com/privacy?hl=en">privacy policy</a>, and sends us the information
   described above. Google Play also installs and updates the app; the app sends it no game data.</dd>
+  <dt>GitHub (web version only)</dt>
+  <dd>GitHub Pages serves the web version's files, as it does for this site. GitHub, Inc. receives your IP
+  address and your browser's technical information, under its own
+  <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">privacy statement</a>.
+  It receives no game data.</dd>
+  <dt>jsDelivr (web version only)</dt>
+  <dd>This public content delivery network serves the Supabase software library used by the web
+  version. It receives your IP address and your browser's technical information when that library
+  loads, and no game data.</dd>
 </dl>
 
 <h2>The people picked</h2>
@@ -151,7 +171,8 @@ points.</p>
 <h2>Security</h2>
 <p>All communications are encrypted (HTTPS). On the server, access rules checked on every request
 prevent a player from reading a group they are not a member of. The sign-in token stays in the app's
-private storage, inaccessible to other apps; it is not included in phone backups.</p>
+private storage, inaccessible to other apps; it is not included in phone backups. In the web version,
+it stays in the browser storage reserved for the web version's site, which other sites cannot read.</p>
 
 <h2>Your rights</h2>
 <p>You have the rights of access, rectification, erasure, restriction, objection and portability, as
@@ -175,14 +196,15 @@ theme.</p>
 
 <h2>Advertising and analytics</h2>
 <p>No advertising, no trackers, no analytics tools, no cookies. Your data is never sold, rented or
-transferred.</p>
+transferred. The web version's local storage, described above, is used only to run the app you asked
+for, so it does not require separate consent.</p>
 
 <h2>If this text changes</h2>
 <p>Any substantial change leads to a new version, dated here, and you are informed of it in the app.
 Adding notifications, which is planned, will be one: it will add a device token and Google's Firebase
 Cloud Messaging service.</p>
 
-<footer>Bingo Last Breath — published by Noverane. Version 1 of 20 November 2026.</footer>
+<footer>Bingo Last Breath — published by Noverane. Version 1.1 of 22 November 2026.</footer>
 
 </main>
 </body>

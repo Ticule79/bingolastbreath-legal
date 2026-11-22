@@ -19,11 +19,15 @@
 </nav>
 
 <h1>Politique de confidentialité</h1>
-<p class="updated">Version 1 — 20 novembre 2026.</p>
+<p class="updated">Version 1.1 — 22 novembre 2026 (ajout de la version web).</p>
 
 <p>Bingo Last Breath est un jeu de pronostics entre amis. Ce document dit exactement ce que
 l'application enregistre, qui le voit, combien de temps, et ce que vous pouvez exiger. Il vaut pour
 les joueurs, et aussi pour les personnes que les joueurs choisissent.</p>
+<p>L'application existe en deux versions qui partagent les mêmes comptes et les mêmes groupes&nbsp;:
+l'application Android et la <strong>version web</strong> (<a href="https://ticule79.github.io/bingolastbreath-web/">ticule79.github.io/bingolastbreath-web</a>), utilisable depuis un navigateur
+et installable sur l'écran d'accueil, notamment sur iPhone. Sauf mention contraire, ce texte vaut pour
+les deux.</p>
 
 <h2>Qui est responsable</h2>
 <p>Le responsable du traitement est <strong>Yoann Le Tartesse</strong>, entrepreneur individuel
@@ -49,6 +53,15 @@ l'éviter, vous pouvez, <strong>si vous le souhaitez</strong>, le protéger en y
 la prospection. Elle ne sert qu'à vous connecter et, si nécessaire, à vous écrire au sujet de votre
 compte.</p>
 <p>La langue de l'application (français ou anglais) n'est enregistrée que sur votre téléphone.</p>
+<h3>Dans la version web</h3>
+<p>Le jeton de connexion est conservé dans le stockage local du navigateur, propre au site de la
+version web. Y sont aussi gardés&nbsp;: votre accord aux présentes règles (avec sa date), et une copie
+des dernières données affichées (vos groupes, classements et choix) pour que l'application reste
+consultable hors connexion. Le navigateur garde aussi les fichiers de l'application pour qu'elle
+s'ouvre sans réseau. Ces informations restent sur votre appareil.</p>
+<p>Effacer les données du site dans votre navigateur fait perdre un compte resté anonyme. Sur iPhone,
+Safari et l'application ajoutée à l'écran d'accueil ont chacun leur propre stockage&nbsp;: un compte
+créé dans l'un n'apparaît pas dans l'autre.</p>
 
 <h2>Ce qui est enregistré sur notre serveur</h2>
 <dl>
@@ -92,7 +105,7 @@ compte.</p>
   accès ponctuel de son support est encadré par les clauses contractuelles types de la Commission
   européenne, intégrées à son accord de sous-traitance.</dd>
   <dt>Wikidata (Wikimedia Foundation)</dt>
-  <dd>Quand vous cherchez une personnalité, votre téléphone interroge directement Wikidata&nbsp;:
+  <dd>Quand vous cherchez une personnalité, votre téléphone (ou votre navigateur) interroge directement Wikidata&nbsp;:
   la Wikimedia Foundation reçoit alors le texte de votre recherche et votre adresse IP, comme pour
   n'importe quel site que vous visitez, selon sa propre
   <a href="https://foundation.wikimedia.org/wiki/Policy:Privacy_policy/fr">politique de confidentialité</a>.
@@ -107,6 +120,15 @@ compte.</p>
   selon ses propres <a href="https://policies.google.com/privacy?hl=fr">règles de confidentialité</a>,
   et nous transmet les informations décrites plus haut. Google Play installe et met à jour l'application
   par ailleurs&nbsp;; l'application ne lui envoie aucune donnée de jeu.</dd>
+  <dt>GitHub (version web seulement)</dt>
+  <dd>GitHub Pages fournit les fichiers de la version web, comme pour ce site. GitHub, Inc. reçoit votre
+  adresse IP et les informations techniques de votre navigateur, selon sa propre
+  <a href="https://docs.github.com/fr/site-policy/privacy-policies/github-general-privacy-statement">déclaration de confidentialité</a>.
+  Il ne reçoit aucune donnée de jeu.</dd>
+  <dt>jsDelivr (version web seulement)</dt>
+  <dd>Ce réseau public de diffusion fournit la bibliothèque logicielle de Supabase utilisée par la
+  version web. Il reçoit votre adresse IP et les informations techniques de votre navigateur au
+  chargement de cette bibliothèque, et aucune donnée de jeu.</dd>
 </dl>
 
 <h2>Les personnes choisies</h2>
@@ -159,7 +181,8 @@ celui des points du jeu.</p>
 <p>Toutes les communications sont chiffrées (HTTPS). Sur le serveur, des règles d'accès vérifiées à
 chaque requête empêchent un joueur de lire un groupe dont il n'est pas membre. Le jeton de connexion
 reste dans l'espace privé de l'application, inaccessible aux autres applications&nbsp;; il n'est pas
-inclus dans les sauvegardes du téléphone.</p>
+inclus dans les sauvegardes du téléphone. Dans la version web, il reste dans le stockage du navigateur
+réservé au site de la version web, que les autres sites ne peuvent pas lire.</p>
 
 <h2>Vos droits</h2>
 <p>Vous disposez des droits d'accès, de rectification, d'effacement, de limitation, d'opposition et
@@ -183,14 +206,16 @@ de son thème.</p>
 
 <h2>Publicité et mesure d'audience</h2>
 <p>Aucune publicité, aucun traceur, aucun outil de mesure d'audience, aucun cookie. Vos données ne
-sont ni vendues, ni louées, ni cédées.</p>
+sont ni vendues, ni louées, ni cédées. Le stockage local de la version web, décrit plus haut, ne sert
+qu'au fonctionnement de l'application que vous avez demandée&nbsp;: il ne nécessite donc pas de
+consentement séparé.</p>
 
 <h2>Si ce texte change</h2>
 <p>Toute modification substantielle donne lieu à une nouvelle version, datée ici, et vous en êtes
 informé dans l'application. L'ajout des notifications, prévu, en fera partie&nbsp;: il ajoutera un
 jeton d'appareil et le service Firebase Cloud Messaging de Google.</p>
 
-<footer>Bingo Last Breath — édité par Noverane. Version 1 du 20 novembre 2026.</footer>
+<footer>Bingo Last Breath — édité par Noverane. Version 1.1 du 22 novembre 2026.</footer>
 
 </main>
 </body>
